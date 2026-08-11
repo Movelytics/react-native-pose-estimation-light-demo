@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "posetracker-sdk-testapp-light",
+    "slug": "posetracker-sdk-testapp-light",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.posetracker.sdktestapp.light",
+      "infoPlist": {
+        "NSCameraUsageDescription": "La caméra alimente l'estimation de pose MoveNet (SDK light online)."
+      }
+    },
+    "android": {
+      "package": "com.posetracker.sdktestapp.light",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "La caméra alimente l'estimation de pose MoveNet (SDK light online)."
+        }
+      ],
+      "expo-asset"
+    ]
+  }
+}
