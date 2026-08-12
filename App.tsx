@@ -123,6 +123,7 @@ export default function App(): React.JSX.Element {
       locale: 'en' as const,
       preferredBackend: backend,
       // Light SDK: Docs API `model` parity — default MoveNet Lightning URL.
+      // BlazePose: model: 'blazepose' (CDN pose-detection; heavier than MoveNet).
       model: 'movenet' as const,
       features: hasApiKey ? FEATURES_WITH_KEY : FEATURES_KEYLESS,
     }),
