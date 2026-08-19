@@ -5,6 +5,10 @@ MoveNet loaded online each session (small npm package).
 
 ## Try it
 
+**Fastest — no clone:** [Expo Snack](https://snack.expo.dev/@fsepret/posetracker-sdk-light-demo-app) → install [Expo Go](https://expo.dev/go) → **Run on device** → scan the QR.
+
+Or run this repo:
+
 1. Install [Expo Go](https://expo.dev/go)
 2. `npm install && npx expo start`
 3. Scan the QR code (needs network for model / TF.js)
